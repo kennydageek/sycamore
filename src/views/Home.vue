@@ -76,7 +76,9 @@ const filteredCustomerData = computed(() => {
 </script>
 
 <template>
-  <main class="h-[100vh] md:bg-[#f3f5f5] flex justify-center items-center">
+  <main
+    class="h-[90vh] md:bg-[#f3f5f5] flex flex-col justify-center items-center"
+  >
     <div
       class="rounded w-full md:w-3/4 bg-white p-5 md:border border-[#f3f5f5]"
     >
@@ -122,6 +124,15 @@ const filteredCustomerData = computed(() => {
         <p class="text-2xl text-center">You do not have any data to display</p>
       </div>
     </div>
+    <footer class="mt-5">
+      Inspiration from
+      <a
+        href="https://dribbble.com/shots/21735871-User-management-table"
+        class="underline"
+        target="_blank"
+        >Dribbble</a
+      >
+    </footer>
   </main>
 
   <sy-modal
